@@ -1,0 +1,34 @@
+{
+  "dogs": [
+    {
+      "name": "Мухтар",
+      "age": 10,
+      "type": "dog"
+    },
+    {
+      "name": "Рекс",
+      "age": 3,
+      "type": "dog"
+    },
+    {
+      "name": "Жучка",
+      "age": 8,
+      "type": "dog"
+    },
+    {
+      "name": "Боня",
+      "age": 5,
+      "type": "dog"
+    },
+    {
+      "name": "Полкан",
+      "age": 13,
+      "type": "dog"
+    },
+    {
+      "name": "Клёпа",
+      "age": 2,
+      "type": "dog"
+    }
+  ]
+}

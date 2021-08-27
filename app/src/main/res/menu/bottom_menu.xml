@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/all"
+        android:enabled="true"
+        android:icon="@drawable/together"
+        android:title="@string/title_all_fragment"/>
+
+    <item
+        android:id="@+id/cat"
+        android:enabled="true"
+        android:icon="@drawable/cat_icon"
+        android:title="@string/title_cat_fragment"/>
+
+    <item
+        android:id="@+id/dog"
+        android:enabled="true"
+        android:icon="@drawable/dog_icon"
+        android:title="@string/title_dog_fragment"/>
+</menu>
