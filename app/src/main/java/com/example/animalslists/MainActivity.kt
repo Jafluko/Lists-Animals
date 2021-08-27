@@ -10,13 +10,6 @@ import com.example.animalslists.view.AllFragment
 import com.example.animalslists.view.CatFragment
 import com.example.animalslists.view.DogFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.google.gson.GsonBuilder
-import com.google.gson.JsonObject
-import com.google.gson.reflect.TypeToken
-import org.json.JSONObject
-import java.io.IOException
-import java.io.InputStream
-import java.lang.reflect.Type
 
 class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener {
     override fun onCreate(savedInstanceState: Bundle?) {

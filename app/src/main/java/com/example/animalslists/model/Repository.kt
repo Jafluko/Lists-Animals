@@ -3,8 +3,6 @@ package com.example.animalslists.model
 import com.example.animalslists.model.data.Animal
 import com.example.animalslists.model.data.Cat
 import com.example.animalslists.model.data.Dog
-import io.reactivex.rxjava3.core.Observable
-import io.reactivex.rxjava3.core.Observer
 import io.reactivex.rxjava3.core.Single
 
 class Repository {
@@ -30,13 +28,13 @@ class Repository {
         all.addAll(dogs)
     }
 
-    fun getCatsList(): Observable<List<Cat>> {
-        return Observable.just(cats)
+    fun getCatsList(): Single<List<Cat>> {
+        return Single.just(cats)
     }
-    fun getDogsList(): Observable<List<Dog>> {
-        return Observable.just(dogs)
+    fun getDogsList(): Single<List<Dog>> {
+        return Single.just(dogs)
     }
-    fun getAllList(): Observable<List<Animal>> {
-        return Observable.just(all)
+    fun getAllList(): Single<List<Animal>> {
+        return Single.just(all)
     }
 }

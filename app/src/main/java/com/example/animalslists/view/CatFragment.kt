@@ -28,7 +28,7 @@ class CatFragment : Fragment() {
         fragmentBinding = CatFragmentBinding.inflate(
             inflater, container, false
         )
-        requireActivity().title = "Кошки"
+        requireActivity().title = getString(R.string.title_cat_fragment)
         return fragmentBinding!!.root
     }
 

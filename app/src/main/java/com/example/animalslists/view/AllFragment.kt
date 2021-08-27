@@ -28,7 +28,7 @@ class AllFragment : Fragment() {
         fragmentBinding = AllFragmentBinding.inflate(
             inflater, container, false
         )
-        requireActivity().title = "Все пациенты"
+        requireActivity().title = getString(R.string.title_all_fragment)
         return fragmentBinding!!.root
     }
 

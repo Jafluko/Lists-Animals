@@ -2,7 +2,6 @@ package com.example.animalslists.viewmodel
 
 import android.util.Log
 import android.view.View
-import androidx.databinding.ObservableInt
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.animalslists.R

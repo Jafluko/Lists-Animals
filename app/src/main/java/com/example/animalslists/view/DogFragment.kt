@@ -31,7 +31,7 @@ class DogFragment : Fragment() {
         fragmentBinding = DogFragmentBinding.inflate(
             inflater, container, false
         )
-        requireActivity().title = "Собаки"
+        requireActivity().title = getString(R.string.title_dog_fragment)
         return fragmentBinding!!.root
     }
 
